@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+ h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Code starts here  */
+body{
+    background-image:url('https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/yellow-container-background_O_HTT_hh3.avif') ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+
+}
+.container-card{
+    background-color: rgb(255, 246, 215);
+    padding: 20px;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px blueviolet;
+}
+.container-card h1{
+    font-weight: 700;
+    font-size: 2em;
+    margin: 36px;
+   
+}
+.first-section{
+    background-color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.first-section input{
+    display: inline-block;
+    width: 60%;
+    border: none;
+    padding: 8px;
+    font-size: 24px;
+    
+}
+
+.first-section button{
+  background-color: green;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+.second-section{
+    margin: 18px;
+}
+.slidecontainer{
+  margin-top: 20px;
+}
+.section-third{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: center;
+}
+.container-body{
+    padding: 36px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5;
+    text-align: justify;
+}
+.container-body section{
+    width: 28%;
+}
